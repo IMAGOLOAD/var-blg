@@ -1,0 +1,1 @@
+$etSocialjQuery=jQuery.noConflict();
