@@ -1,0 +1,22 @@
+.speed {z-index: 9999; position: fixed; left: 0; top: 100; width: 200%; padding:0 0px;} 
+.speedbar{width:100%}
+.speed ul {border:0px solid #260818 ;background-color:	#260818;height:70px;line-height:10px;margin:0;padding:10px 0px;}
+.speed li {list-style:none;margin:0px 0px;padding:0px 0px;color:white;float:left;display:inline;position:relative;}
+.speed li a{display:block;margin:0px 0px;padding:0px 15px;color:white;text-decoration:none;font-weight:bold;line-height:50px;outline:none;border-left:0px solid #260818;border-right:0px solid #260818}
+.speed li a:hover{background:#260818}
+.speed li ul{position:absolute;z-index:10;left:0px;top:100%;height:auto;margin:0px 0px;padding:0px 0px;width:200px;display:none;}
+.speed li ul a{border-left:none;border-right:none;border-bottom:2px solid #6F80A1;display:block}
+.speed ul li a:hover{background:#260818}
+.speed li ul li {float:none;display:block;width:auto}
+.speed li ul ul{top:0px;left:100%}
+.speed li a:focus{background-color:#4B67A1;border-left-color:#777;border-right-color:#555}
+.speed ul li a:focus{background-color:#4B67A1;border-top-color:#777;border-bottom-color:#555}
+.speed li a:hover,
+.speed li:hover > a{background-color:#4B67A1}
+#Attribution1 {
+height:0px;visibility:hidden;display:none}
+.spider-arrow {
+  position: relative;  top: -1px;  font-size: 0px;  height: 0px;  line-height: 0;  width: 0px;  border-width: 4px 4px 0px;  padding-top: 1px;  left: 4px;
+  border-style: solid dashed dashed;  border-right: 4px dashed transparent;  border-color: #ffffff transparent transparent;}
+
+
