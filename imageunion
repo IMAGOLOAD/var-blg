@@ -1,0 +1,64 @@
+
+
+.gallerysakuta{position: relative; border: 5px solid white;margin: 0 5px 5px 0;widht:'300'px;}
+.thumbnailsakuta img{border: 0px solid white;margin: 0 5px 5px 0;}
+.thumbnailsakuta:hover{background-color: transparent;}
+.thumbnailsakuta:hover img{border: 1px solid blue;}
+.thumbnailsakuta span{position: absolute;background-color: lightyellow;<padding: 5px;left: -1000px;border: 1px dashed gray;visibility: hidden;color: black;
+text-decoration: none;}.thumbnailsakuta span img{border-width: 0;padding: 2px;}
+.thumbnailsakuta:hover span{border: 10px solid white; visibility: visible;top: 0;left: 150px;z-index: 50;}
+#shoppingCart{background:#fff;float:left;border:1px solid#ccc;color:#ddd;height:autopx;width:700px;margin:10px;padding:0 10px 10px}
+#shoppingCart h2{background:url(http://3.bp.blogspot.com/-flnyRyD-3sc/VhI_XGivntI/AAAAAAAAABo/J_p1yR3yJQc/s1600/Cart%2Bimg.png
+) no-repeat left top;display:block;font:bold 25px Arial;color:#333;text-decoration:none;margin-bottom:10px;padding:4px 5px 10px 25px}
+.simpleCart_items{background:#4c1130;border:1px solid#ccc;font-size:80%;min-height:220px;display:block;margin-left:0 auto 10px;overflow:hidden;padding:10px}
+.simpleCart_items img{float:left;text-align:left;width:35px!important;height:35px!important;padding:0px;border:0px solid#333;margin:0px 0 0px;border-radius:180px;}.cartHeaders{float:left;border-bottom:3px solid#ccc;color:#ddd;padding:0 0px 0px; height:30px;width:700px;margin:0px 0 30px}
+.itemContainer{float:left;width:700px;text-align:center;display:block;position:relative;bottom:0}
+.itemName{float:left;text-align:left;width:150px;margin:0px 0 0}
+.itemthumb{float:left;width:35px;margin:0px 0 0 0}
+.itemSize{float:left;text-align:center;width:35px;margin:0px 0 0}
+.itemQuantity{float:left;text-align:center;width:70px;margin:0px 0 0}
+.itemTotal{float:left;text-align:center;width:100px;margin:0px 0 0}
+.itemremove{float:left;text-align:center;width:100px;margin:0px 0 0}
+.itemQuantity input{border:none;color:#ddd;background:none;float:left;font:bold 12px Arial,sans-serif;height:50px;text-align:center;width:70px;padding:0}
+.itemQuantity input:focus{outline:none}
+.itemremove a{color:#ffc23d;float:left;width:100px;font-weight:700;margin:0px 0 0}
+.itemTotal input{color:#fff;float:left;font:bold 11px Arial,sans-serif;text-align:center;width:100px;margin:0px 0 0;padding:0}
+.simpleCart_Total{background:#FF0000;float:right;padding:4px;color:#fff;font:bold 14px Arial;border-radius:6px;}
+.simpleCart_finalTotal{background:#FF0000;float:left;width:150px;padding:4px;color:#fff;font:bold 14px Arial;border-radius:6px;}
+#shoppingCart table td{color:#333;border:none;padding:2px 0}
+#shoppingCart table{float:left;width:500px;border:none;margin-top:50px}
+#shoppingCart table td.odd{width:110px;}
+#shoppingCart table td.even{width:110px;}
+.cartbuttons{float:left;border:0px solid#ccc;color:#ddd;padding:0 0 0 0; width:330px;margin:10px 0 0}
+a.simpleCart_empty {background:#0087C6 url(http://png-2.findicons.com/files/icons/2165/office/24/close.png)no-repeat 3px 8px;display:block;font:normal 18px Oswald;text-align:right;text-decoration:none;color:#fff;float:right;height:20px;width:80px;margin:0 0px;padding:10px;}
+a.simpleCart_checkout{background:#4c1130 url(http://png-1.findicons.com/files/icons/2165/office/24/download.png)no-repeat 3px 8px;display:block;font:normal 14px Oswald;text-align:center;text-decoration:none;color:#fff;float:right;width:150px;margin:0 0px;padding:10px;}
+input.item_add:hover{background:#68C072;color:#000}
+input.item_add url(("http://3.bp.blogspot.com/-bQuky0uxYQM/Vg4-Ji1fv9I/AAAAAAAACMY/WQ4cvrbgBhk/s1600/klik%2Border.png")
+#checkout{background:#424242;color:#000;text-decoration:none;font-size:80%;display:block;text-align:center;-moz-border-radius:5px;border-radius:5px;-webkit-border-radius:5px;padding:10px}
+#checkout:hover{background:#333;color:#FFF}
+.item_name,.hidden_value,.cartHeaders{display:none}
+a.simpleCart_empty:hover{background:#006C9F url(http://png-2.findicons.com/files/icons/2165/office/24/close.png)no-repeat 3px 8px;color:#fff;text-shadow:1px 1px 1px #ac7600}
+a.simpleCart_checkout:hover{background:#006C9F url(http://png-1.findicons.com/files/icons/2165/office/24/download.png)no-repeat 3px 8px;color:#fff;text-shadow:1px 1px 1px #ac7600}
+.product_image{width:300px;height:330px;border:1px solid #ccc;box-shadow: 1px 3px 16px #aaa;float:center;text-align:left;margin:0 15px 10px 0;padding:13px 10px 13px 13px}
+.product_image img{width:250px;height:250px}
+.hovergallery img{
+-webkit-transform:scale(0.8);
+-moz-transform:scale(0.8);
+-o-transform:scale(0.8);
+-webkit-transition-duration: 0.5s;
+-moz-transition-duration: 0.5s;
+-o-transition-duration: 0.5s;
+opacity: 0.7;
+margin: 0 10px 5px 0;
+}
+
+.hovergallery img:hover{
+-webkit-transform:scale(1.1);
+-moz-transform:scale(1.1);
+-o-transform:scale(1.1);
+opacity: 1;
+} 
+
+span.controllmu{width:60px;display:inline-block;padding:4px 6px;background:#333 url(http://www.abchoes.com/images/textbg.png);color:#f00;margin:0 0 6px 1px;border:2px solid #777;border-right:2px solid #888;text-align:center;}
+span.controllmu:hover{background:#900;color:#fff;}
+
